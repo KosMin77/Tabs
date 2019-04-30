@@ -1,0 +1,181 @@
+/* styles goes here */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+
+.container{
+    background-image: url(../img/Layer\ 41.png);
+    background-position: top;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper{
+    background-color: #212534;
+    box-shadow: 0 23px 57px rgba(0, 0, 0, 0.4);
+    width: 600px;
+    height: 541px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tabs{
+    padding: 19px 27px 16px 38px;
+    background-color: #2b3040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.tab{
+    text-align: center;
+    color: #b7bacd;
+    cursor: pointer;
+}
+
+.tab:hover{
+    color: white;
+}
+
+.tabs-icon{
+    text-align: center;
+    color: #b7bacd
+}
+
+.tabs-name{
+    margin-top: -10px;
+}
+
+.game-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 54px;
+    margin-left: 33px;
+}
+
+.content-descr{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-name{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-left: 10px;
+    letter-spacing: 0.011em;
+}
+
+.game-release{
+    color: #fdfdfd;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.game-descr{
+    color: #b7bacd;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 26px;
+    margin-top: -47px;
+    letter-spacing: 0.02mm;
+    line-height: 23px;
+}
+
+.game-rating{
+    padding-top: 2px;
+    margin-left: -32px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer-price{
+    adding-left: 27px;
+    margin-top: -24px;
+}
+
+.offer{
+    color: #fedc3f;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: -24px;
+    padding-top: 1px;
+    margin-left: 14px;
+
+}
+
+.price{
+    color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+    font-weight: 400;
+    padding-left: 12px;
+    margin-top: 27px;
+
+}
+
+.stars {
+    margin-top: -3px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    transform: scale(1.5);
+}
+
+.rating {
+    display: none;
+}
+
+.rating:checked ~ label i{
+    color: gold;
+    
+}
+
+.stars {
+    font-size: 18px;
+    letter-spacing: 8px;
+    color: #9da1a6;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 49px;
+    justify-content: space-around;
+}
+
+.btn-primary {
+    color: #fff;
+    width: 164px;
+	height: 55px;
+    background-color: #13e28d;
+    outline: none;
+    border-color: #13e28d;
+    border-radius: 2px;
+}
+
+.btn{
+    margin-left: -29px;
+    margin-top: -10px;
+    letter-spacing: -0.01em;
+}
